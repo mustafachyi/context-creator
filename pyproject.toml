@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-creator"
+version = "1.0.0"
+authors = [
+  { name="Ahmed Touhami", email="mustafachyi272@gmail.com" },
+]
+description = "A utility to generate a single context file from a project directory."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT License" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/mustafachyi/context-creator"
+Issues = "https://github.com/mustafachyi/context-creator/issues"
+
+[project.scripts]
+context = "context_creator.cli:main"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
