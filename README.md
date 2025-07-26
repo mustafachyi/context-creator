@@ -1,4 +1,3 @@
-
 # Context Creator
 
 Have you ever found yourself manually copying and pasting code into a single file to feed to an AI model? Or maybe you needed to give a new collaborator a quick overview of a project, but didn't want to send them a zip file full of junk.
@@ -71,6 +70,10 @@ For example, if you want to also ignore all markdown files, just add this line:
 
 The tool will now skip any file with a `.md` extension during its next run.
 
----
+## License 
 
 This project is open-source and released under the MIT License.
+
+## Like It? Star It!
+
+If you’re finding this useful, don’t forget to give it a star on GitHub ⭐
