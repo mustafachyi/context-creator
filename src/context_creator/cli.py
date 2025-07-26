@@ -113,7 +113,7 @@ def main():
         ignore_spec_path=ignore_file_path
     )
     
-    output_path = generator.generate()
+    output_path = generator.generate_context_file()
     
     if output_path:
         print(f"Generated {output_path.name}.")

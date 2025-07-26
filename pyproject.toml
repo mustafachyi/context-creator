@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "context-creator"
-version = "1.0.0"
+version = "1.0.3"
 authors = [
   { name="Ahmed Touhami", email="mustafachyi272@gmail.com" },
 ]
